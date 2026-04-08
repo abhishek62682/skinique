@@ -1315,6 +1315,7 @@ body {
   background: transparent;
   cursor: pointer;
   position: relative;
+  flex-shrink: 0;
 }
 
 .checkbox-group {
