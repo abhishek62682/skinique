@@ -98,6 +98,7 @@ body {
     background-color: var(--col-white);
 }
 .primary-btn {
+    flex-shrink: 0;
   position: relative;
   font-size: 14px;
   line-height: 18px;
@@ -758,6 +759,7 @@ body {
   align-items: center;
   background-color: #fff;
   border-radius: 50%;
+  flex-shrink: 0;
 }
 .feature-list-wrapper {
   display: flex;
@@ -1774,11 +1776,11 @@ body {
   }
 
    .about-doctor__left{
-    height:550px;
+    height:500px;
   }
 
     .about-doctor__left > img{
-    height:550px;
+    height:500px;
     object-fit: cover;
   }
 
@@ -1831,9 +1833,7 @@ body {
     padding-inline: 24px;
   }
 
-  .footer__top-btn-group{
-    flex-wrap: wrap;
-  }
+  
 
   .footer__container{
     gap:40px;
@@ -1841,6 +1841,10 @@ body {
 
   .br-hidden{
     display:none;
+  }
+  .footer__container{
+    
+    background-position: center;
   }
 }
 
