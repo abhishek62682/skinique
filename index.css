@@ -1847,6 +1847,14 @@ body {
     
     background-position: center;
   }
+
+  .footer__top-btn-group{
+    flex-wrap: wrap;
+  }
+
+  .footer__middle{
+    gap:30px;
+  }
 }
 
 
